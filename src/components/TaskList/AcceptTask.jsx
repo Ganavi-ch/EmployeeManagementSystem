@@ -11,8 +11,8 @@ const AcceptTask = () => {
            <h2 className=' mt-5 text-2xl font-semibold'>Make a youtube video </h2>
            <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dicta ducimus reprehenderit error suscipit eius quibusdam consequatur.</p>
         <div>
-           <button>Marked as Completed</button>
-           <button>Marked as Failed</button>
+           <button className='bg-green-500 py-1 px-2 text-sm'>Marked as Completed</button>
+           <button className='bg-red-500 py-1 px-2 text-sm'>Marked as Failed</button>
         </div>        
         
         </div>
